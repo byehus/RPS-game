@@ -48,6 +48,7 @@ body {
     text-align: center;
     font-weight: bold;
     margin: 5rem;
+    border: solid 3px salmon;
 }
 
 .hdrs_ h1 {
@@ -59,13 +60,30 @@ body {
 }
 
 .container {
+    border: solid 3px #fa8072;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 10rem;
 }
 .gs_ {
+    display: flex;
+    gap: 10rem;
+
     font-size: 5rem;
+}
+
+section {
+    border: solid 3px salmon;
+    text-align: center;
+    margin-bottom: 5rem;
+    padding: 5rem;
+}
+
+.result_ {
+    font-size: 2rem;
+    margin: auto;
+    padding: auto;
 }
 
 footer {
@@ -77,6 +95,50 @@ footer {
     font-size: 1rem;
 }
 
+.container .roc_ {
+    border: solid 3px #fa8072;
+    padding: 10px 30px;
+}
+
+.container .pap_ {
+    border: solid 3px #fa8072;
+    padding: 10px 20px;
+}
+
+.container .scis_ {
+    border: solid 3px #fa8072;
+    padding: 10px 30px;
+}
+
+.container .roc_:hover {
+    background: #fa8072;
+    border: solid 3px #000;
+}
+
+.container .roc_:active {
+    background: #fa8072;
+    border: solid 3px #000;
+}
+
+.container .pap_:hover {
+    background: #fa8072;
+    border: solid 3px #000;
+}
+
+.container .pap_:active {
+    background: #fa8072;
+    border: solid 3px #000;
+}
+
+.container .scis_:hover {
+    background: #fa8072;
+    border: solid 3px #000;
+}
+
+.container .scis_:active {
+    background: #fa8072;
+    border: solid 3px #000;
+}
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
