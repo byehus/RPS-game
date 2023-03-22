@@ -7,7 +7,7 @@
 	<meta name="keywords" content="one, two, three">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
-	<title>Blank Template</title>
+	<title>Rock, Paper, Scissors</title>
 
 	<!-- external CSS link -->
 	<link rel="stylesheet" href="css/normalize.css">
@@ -15,18 +15,31 @@
 </head>
 
 <body>
-	<!-- Main sectio/Game Area -->
+	<!-- Main section/Game Area -->
 	<main class="container">
 		<!-- Title -->
 		<div class="hdrs_">
 			<h1>Rock, Paper, Scissor</h1>
 			<h2>Make your chose!</h2>
 		</div>
+		<div class="score_">
+			<div id="user_">
+				<span>
+					<h2>USER</h2>
+				</span>
+			</div>
+			<span id="usrScore_">0</span> : <span id="usrCpu_">0</span>
+			<div id="cpu_">
+				<span>
+					<h2>CPU</h2>
+				</span>
+			</div>
+		</div>
 		<section>
 			<div class="gs_">
-				<div class="roc_">✊🏽</div>
-				<div class="pap_">🖐🏽</div>
-				<div class="scis_">✌🏽</div>
+				<div id="roc_">✊🏽</div>
+				<div id="pap_">🖐🏽</div>
+				<div id="scis_">✌🏽</div>
 			</div>
 		</section>
 		<section class="result_">

@@ -95,49 +95,63 @@ footer {
     font-size: 1rem;
 }
 
-.container .roc_ {
+.container #roc_ {
     border: solid 3px #fa8072;
     padding: 10px 30px;
 }
 
-.container .pap_ {
+.container #pap_ {
     border: solid 3px #fa8072;
     padding: 10px 20px;
 }
 
-.container .scis_ {
+.container #scis_ {
     border: solid 3px #fa8072;
     padding: 10px 30px;
 }
 
-.container .roc_:hover {
+.container #roc_:hover {
     background: #fa8072;
     border: solid 3px #000;
 }
 
-.container .roc_:active {
+.container #roc_:active {
     background: #fa8072;
     border: solid 3px #000;
 }
 
-.container .pap_:hover {
+.container #pap_:hover {
     background: #fa8072;
     border: solid 3px #000;
 }
 
-.container .pap_:active {
+.container #pap_:active {
     background: #fa8072;
     border: solid 3px #000;
 }
 
-.container .scis_:hover {
+.container #scis_:hover {
     background: #fa8072;
     border: solid 3px #000;
 }
 
-.container .scis_:active {
+.container #scis_:active {
     background: #fa8072;
     border: solid 3px #000;
+}
+
+.container .score_ {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+    border: solid 3px salmon;
+    font-size: 1.6rem;
+}
+
+#usrScore_,
+#usrCpu_ {
+    font-size: 5rem;
 }
 /******************************************
 /* ADDITIONAL STYLES
