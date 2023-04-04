@@ -48,7 +48,6 @@ body {
     text-align: center;
     font-weight: bold;
     margin: 5rem;
-    
 }
 
 .hdrs_ h1 {
@@ -60,7 +59,6 @@ body {
 }
 
 .container {
-    
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -69,15 +67,13 @@ body {
 .gs_ {
     display: flex;
     gap: 10rem;
-
     font-size: 5rem;
 }
 
 section {
-    
     text-align: center;
-    margin-bottom: 5rem;
-    padding: 5rem;
+    margin-bottom: 2rem;
+    padding: 2rem;
 }
 
 .result_ {
@@ -96,48 +92,39 @@ footer {
 }
 
 .container #roc_ {
-    
     padding: 10px 30px;
 }
 
 .container #pap_ {
-    
     padding: 10px 20px;
 }
 
 .container #scis_ {
-    
     padding: 10px 30px;
 }
 
 .container #roc_:hover {
     background: #fa8072;
-    d
 }
 
 .container #roc_:active {
     background: #fa8072;
-    
 }
 
 .container #pap_:hover {
     background: #fa8072;
-    
 }
 
 .container #pap_:active {
     background: #fa8072;
-    
 }
 
 .container #scis_:hover {
     background: #fa8072;
-    
 }
 
 .container #scis_:active {
     background: #fa8072;
-    
 }
 
 .container .score_ {
@@ -145,7 +132,6 @@ footer {
     justify-content: center;
     align-items: center;
     gap: 5rem;
-    
     font-size: 1.6rem;
 }
 
