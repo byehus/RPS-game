@@ -48,7 +48,7 @@ body {
     text-align: center;
     font-weight: bold;
     margin: 5rem;
-    border: solid 3px salmon;
+    
 }
 
 .hdrs_ h1 {
@@ -60,7 +60,7 @@ body {
 }
 
 .container {
-    border: solid 3px #fa8072;
+    
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -74,7 +74,7 @@ body {
 }
 
 section {
-    border: solid 3px salmon;
+    
     text-align: center;
     margin-bottom: 5rem;
     padding: 5rem;
@@ -96,48 +96,48 @@ footer {
 }
 
 .container #roc_ {
-    border: solid 3px #fa8072;
+    
     padding: 10px 30px;
 }
 
 .container #pap_ {
-    border: solid 3px #fa8072;
+    
     padding: 10px 20px;
 }
 
 .container #scis_ {
-    border: solid 3px #fa8072;
+    
     padding: 10px 30px;
 }
 
 .container #roc_:hover {
     background: #fa8072;
-    border: solid 3px #000;
+    d
 }
 
 .container #roc_:active {
     background: #fa8072;
-    border: solid 3px #000;
+    
 }
 
 .container #pap_:hover {
     background: #fa8072;
-    border: solid 3px #000;
+    
 }
 
 .container #pap_:active {
     background: #fa8072;
-    border: solid 3px #000;
+    
 }
 
 .container #scis_:hover {
     background: #fa8072;
-    border: solid 3px #000;
+    
 }
 
 .container #scis_:active {
     background: #fa8072;
-    border: solid 3px #000;
+    
 }
 
 .container .score_ {
@@ -145,12 +145,12 @@ footer {
     justify-content: center;
     align-items: center;
     gap: 5rem;
-    border: solid 3px salmon;
+    
     font-size: 1.6rem;
 }
 
 #usrScore_,
-#usrCpu_ {
+#cpuScore_ {
     font-size: 5rem;
 }
 /******************************************
